@@ -1,0 +1,6 @@
+framework module MoExtension {
+  umbrella header "MoExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
