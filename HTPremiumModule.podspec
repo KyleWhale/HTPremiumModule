@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "HTPremiumModule"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "test pod for HTPremiumModule"
 
   # This description is used to generate tags and improve search results.
@@ -123,6 +123,7 @@ Pod::Spec.new do |spec|
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
+  spec.prefix_header_file = 'HTPremiumModule/PrefixHeader.pch'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

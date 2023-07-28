@@ -435,7 +435,7 @@
     // 家庭计划 强制登录
     ZQAccountModel *var_model = [HTCommonConfiguration lgjeropj_shared].BLOCK_userBlock();
     if ([var_id containsString:AsciiString(@"family")] && var_model.var_userid.integerValue == 0) {
-        [HTCommonConfiguration lgjeropj_shared].BLOCK_toLoginBlock();
+        [HTCommonConfiguration lgjeropj_shared].BLOCK_toLoginBlock(5);
         return;
     }
     BOOL trial = [data[AsciiString(@"first")] length] > 0;

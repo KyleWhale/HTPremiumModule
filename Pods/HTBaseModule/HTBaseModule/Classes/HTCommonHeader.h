@@ -16,6 +16,7 @@
 #import "HTCommonConfiguration.h"
 #import "HTAttributedManager.h"
 #import "LKFPrivateFunction.h"
+#import "HTPremiumManager.h"
 #import "HTFileManager.h"
 #import "HTKitCreate.h"
 #import "HTBaseModel.h"

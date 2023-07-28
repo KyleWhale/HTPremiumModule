@@ -6,7 +6,10 @@
 //
 
 #import "HTPremiumManager.h"
-#import "HTDBVipModel.h"
+#import "ZQAccountModel.h"
+#import "LKFPrivateFunction.h"
+#import "HTCommonMacro.h"
+#import "HTCommonConfiguration.h"
 
 @implementation HTPremiumManager
 
@@ -20,8 +23,7 @@
     NSString *var_t1String = @"0";
     NSString *var_subidString = @"";
     ZQAccountModel *accountResult = [HTCommonConfiguration lgjeropj_shared].BLOCK_userBlock();
-    HTDBVipModel *model = [[HTDBVipModel alloc] init];
-    if ([model ht_isVip]) {
+    if ([HTCommonConfiguration lgjeropj_shared].BLOCK_vipBlock()) {
         var_subidString = accountResult.var_bindAppId ?: @"";
         var_t1String = [accountResult.var_bindT1 isEqualToString:@"2"]?@"2":@"1";
         var_p2String = 2;

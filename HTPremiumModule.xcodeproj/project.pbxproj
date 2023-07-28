@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0155C7692A7363E700170661 /* HTGuidePaymentViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155C7622A7363E700170661 /* HTGuidePaymentViewManager.m */; };
+		0155C76A2A7363E700170661 /* HTVipActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155C7632A7363E700170661 /* HTVipActivityView.m */; };
+		0155C76B2A7363E700170661 /* HTFreemonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155C7642A7363E700170661 /* HTFreemonthView.m */; };
+		0155C76C2A7363E700170661 /* HTGuidePaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0155C7652A7363E700170661 /* HTGuidePaymentViewController.m */; };
 		01E5DCC92A726EAF00D4C5CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DCC82A726EAF00D4C5CE /* AppDelegate.m */; };
 		01E5DCCC2A726EAF00D4C5CE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DCCB2A726EAF00D4C5CE /* SceneDelegate.m */; };
 		01E5DCCF2A726EAF00D4C5CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DCCE2A726EAF00D4C5CE /* ViewController.m */; };
@@ -36,12 +40,19 @@
 		01E5DD272A726ED700D4C5CE /* HTPremiumHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DD032A726ED700D4C5CE /* HTPremiumHeaderCell.m */; };
 		01E5DD282A726ED700D4C5CE /* HTPremiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DD0D2A726ED700D4C5CE /* HTPremiumViewController.m */; };
 		01E5DD292A726ED700D4C5CE /* HTDBVipModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DD0E2A726ED700D4C5CE /* HTDBVipModel.m */; };
-		01E5DD2A2A726ED700D4C5CE /* HTPremiumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DD112A726ED700D4C5CE /* HTPremiumManager.m */; };
 		01E5DD2B2A726ED700D4C5CE /* LRIAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E5DD132A726ED700D4C5CE /* LRIAPManager.m */; };
 		944CF854ADB9336AEC8BCD98 /* Pods_HTPremiumModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FC3EDD6376AF18C751B34E /* Pods_HTPremiumModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0155C7612A7363E700170661 /* HTVipActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTVipActivityView.h; sourceTree = "<group>"; };
+		0155C7622A7363E700170661 /* HTGuidePaymentViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTGuidePaymentViewManager.m; sourceTree = "<group>"; };
+		0155C7632A7363E700170661 /* HTVipActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTVipActivityView.m; sourceTree = "<group>"; };
+		0155C7642A7363E700170661 /* HTFreemonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTFreemonthView.m; sourceTree = "<group>"; };
+		0155C7652A7363E700170661 /* HTGuidePaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTGuidePaymentViewController.m; sourceTree = "<group>"; };
+		0155C7662A7363E700170661 /* HTFreemonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTFreemonthView.h; sourceTree = "<group>"; };
+		0155C7672A7363E700170661 /* HTGuidePaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTGuidePaymentViewController.h; sourceTree = "<group>"; };
+		0155C7682A7363E700170661 /* HTGuidePaymentViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTGuidePaymentViewManager.h; sourceTree = "<group>"; };
 		01E5DCC42A726EAF00D4C5CE /* HTPremiumModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTPremiumModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E5DCC72A726EAF00D4C5CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E5DCC82A726EAF00D4C5CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -72,7 +83,6 @@
 		01E5DCF12A726ED700D4C5CE /* HTStripeProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTStripeProduct.m; sourceTree = "<group>"; };
 		01E5DCF32A726ED700D4C5CE /* HTDBVipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTDBVipModel.h; sourceTree = "<group>"; };
 		01E5DCF42A726ED700D4C5CE /* HTPremiumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPremiumViewController.h; sourceTree = "<group>"; };
-		01E5DCF52A726ED700D4C5CE /* HTPremiumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPremiumManager.h; sourceTree = "<group>"; };
 		01E5DCF62A726ED700D4C5CE /* HTPayMaiDianManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPayMaiDianManager.m; sourceTree = "<group>"; };
 		01E5DCF72A726ED700D4C5CE /* HTPremiumViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPremiumViewManager.m; sourceTree = "<group>"; };
 		01E5DCF92A726ED700D4C5CE /* HTPremiumViewVipCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPremiumViewVipCell.m; sourceTree = "<group>"; };
@@ -99,7 +109,6 @@
 		01E5DD0E2A726ED700D4C5CE /* HTDBVipModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTDBVipModel.m; sourceTree = "<group>"; };
 		01E5DD0F2A726ED700D4C5CE /* HTPremiumViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPremiumViewManager.h; sourceTree = "<group>"; };
 		01E5DD102A726ED700D4C5CE /* HTPayMaiDianManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPayMaiDianManager.h; sourceTree = "<group>"; };
-		01E5DD112A726ED700D4C5CE /* HTPremiumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTPremiumManager.m; sourceTree = "<group>"; };
 		01E5DD122A726ED700D4C5CE /* HTPremiumPointManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTPremiumPointManager.h; sourceTree = "<group>"; };
 		01E5DD132A726ED700D4C5CE /* LRIAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRIAPManager.m; sourceTree = "<group>"; };
 		01E5DD2C2A726FE300D4C5CE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -161,6 +170,14 @@
 		01E5DCE02A726ED700D4C5CE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0155C7662A7363E700170661 /* HTFreemonthView.h */,
+				0155C7642A7363E700170661 /* HTFreemonthView.m */,
+				0155C7672A7363E700170661 /* HTGuidePaymentViewController.h */,
+				0155C7652A7363E700170661 /* HTGuidePaymentViewController.m */,
+				0155C7682A7363E700170661 /* HTGuidePaymentViewManager.h */,
+				0155C7622A7363E700170661 /* HTGuidePaymentViewManager.m */,
+				0155C7612A7363E700170661 /* HTVipActivityView.h */,
+				0155C7632A7363E700170661 /* HTVipActivityView.m */,
 				01E5DCF32A726ED700D4C5CE /* HTDBVipModel.h */,
 				01E5DD0E2A726ED700D4C5CE /* HTDBVipModel.m */,
 				01E5DCE92A726ED700D4C5CE /* HTFakeCardController.h */,
@@ -177,8 +194,6 @@
 				01E5DD022A726ED700D4C5CE /* HTPremiumItemManager.m */,
 				01E5DD042A726ED700D4C5CE /* HTPremiumItemVipCell.h */,
 				01E5DCFB2A726ED700D4C5CE /* HTPremiumItemVipCell.m */,
-				01E5DCF52A726ED700D4C5CE /* HTPremiumManager.h */,
-				01E5DD112A726ED700D4C5CE /* HTPremiumManager.m */,
 				01E5DD092A726ED700D4C5CE /* HTPremiumNewCardCell.h */,
 				01E5DCFD2A726ED700D4C5CE /* HTPremiumNewCardCell.m */,
 				01E5DD082A726ED700D4C5CE /* HTPremiumNewCardItem.h */,
@@ -344,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0155C76C2A7363E700170661 /* HTGuidePaymentViewController.m in Sources */,
 				01E5DD212A726ED700D4C5CE /* HTPremiumNewCardCell.m in Sources */,
 				01E5DD252A726ED700D4C5CE /* HTPremiumEmptyCellManager.m in Sources */,
 				01E5DD1D2A726ED700D4C5CE /* HTPremiumViewManager.m in Sources */,
@@ -356,21 +372,23 @@
 				01E5DD292A726ED700D4C5CE /* HTDBVipModel.m in Sources */,
 				01E5DD1A2A726ED700D4C5CE /* HTFakeCardController.m in Sources */,
 				01E5DD282A726ED700D4C5CE /* HTPremiumViewController.m in Sources */,
-				01E5DD2A2A726ED700D4C5CE /* HTPremiumManager.m in Sources */,
 				01E5DD1B2A726ED700D4C5CE /* HTStripeProduct.m in Sources */,
 				01E5DD1E2A726ED700D4C5CE /* HTPremiumViewVipCell.m in Sources */,
 				01E5DD272A726ED700D4C5CE /* HTPremiumHeaderCell.m in Sources */,
 				01E5DD262A726ED700D4C5CE /* HTPremiumItemManager.m in Sources */,
 				01E5DCDA2A726EB000D4C5CE /* main.m in Sources */,
 				01E5DD172A726ED700D4C5CE /* HTToolSubscribeAlertView.m in Sources */,
+				0155C76A2A7363E700170661 /* HTVipActivityView.m in Sources */,
 				01E5DD1F2A726ED700D4C5CE /* HTPremiumEmptyCell.m in Sources */,
 				01E5DD192A726ED700D4C5CE /* HTUnSubscribeRemindView.m in Sources */,
+				0155C76B2A7363E700170661 /* HTFreemonthView.m in Sources */,
 				01E5DD182A726ED700D4C5CE /* HTToolKitManager.m in Sources */,
 				01E5DD162A726ED700D4C5CE /* HTRemindAddFamilyMemberView.m in Sources */,
 				01E5DD222A726ED700D4C5CE /* HTPremiumNewCardItem.m in Sources */,
 				01E5DD2B2A726ED700D4C5CE /* LRIAPManager.m in Sources */,
 				01E5DCCC2A726EAF00D4C5CE /* SceneDelegate.m in Sources */,
 				01E5DD1C2A726ED700D4C5CE /* HTPayMaiDianManager.m in Sources */,
+				0155C7692A7363E700170661 /* HTGuidePaymentViewManager.m in Sources */,
 				01E5DD152A726ED700D4C5CE /* LRIAPManagerTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

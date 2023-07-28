@@ -23,6 +23,7 @@
 #import "HTCommonMacro.h"
 #import "HTFileManager.h"
 #import "HTKitCreate.h"
+#import "HTPremiumManager.h"
 #import "LKFPrivateFunction.h"
 #import "ZQAccountModel.h"
 

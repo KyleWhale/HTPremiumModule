@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - HTBaseModule (0.0.4):
+  - HTBaseModule (0.1.1):
     - MoExtension
     - ReactiveObjC
     - SDWebImage
@@ -52,7 +52,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  HTBaseModule: b98c59c3a8a25f0f5a4d53661424713f099fe54e
+  HTBaseModule: 19a061b46f207b1ffdc87c20a777cbcdaa08b095
   HTNetworkModule: 723a35d818079702875f2ae324d0c90f6701b293
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MoExtension: 20adb7e14fea2daed36105b8b901cea7dc5153ae
